@@ -1,0 +1,24 @@
+Open page "home"
+Verify page title is "AMS"
+Click link with text "Sign In"
+Wait for 3 seconds
+Fill form field with label "Email" with "user@example.com"
+Fill form field with label "Password" with "password123"
+Click button with text "Submit"
+Wait for element with id "loader" to disappear
+Verify page title is "Dashboard - Example"
+Verify text "Welcome, user!" is present
+Take screenshot and save as "dashboard.png"
+Click link with text "Log Out"
+Verify URL is "http://example.com/home"
+
+
+
+
+# Check security tag HAS
+Click element with text "ADMINISTRATION"
+Click element with text "User profile"
+Execute JS script "alert('works')"
+Take screenshot
+# Verify element with class "eui-label" has text "HAS"
+# Verify text "Welcome to our website" is present

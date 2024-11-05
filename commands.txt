@@ -1,0 +1,18 @@
+# dev login
+Open page "https://dev.sg-ams.s4dad.aws.cloud.tech.ec.europa.eu/ams"
+Verify page title is "AMS"
+Fill form field with label "Moniker" with "visinma"
+Click link with class "eui-icon-search"
+Click button with label "Login"
+
+# Check security tag HAS
+Click element with text "COLLECTIONS"
+Click element with text "Action Plate-Forme-EN test"
+#Execute JS script "alert('works')"
+#Take screenshot
+Scroll into view element with text "Action FPS Tactique-FR"
+
+Click element with xpath "/html/body/app-root/eui-app/div/div/app-collections/eui-page/eui-page-content/eui-page-columns/eui-page-column[2]/div/eui-page-column-body/app-collections-content-view/div/div/app-collections-list/div/table/tbody/tr[10]/td[2]/eui-card/eui-card-header/div/eui-card-header-right-content/div"
+Take screenshot
+# Verify element with class "eui-label" has text "HAS"
+# Verify text "Welcome to our website" is present
